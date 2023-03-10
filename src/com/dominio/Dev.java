@@ -4,20 +4,21 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Dev {
-	
+
 	private String nome;
 	private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
 	private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
-	
+
 	public void inscreverBootcamp(Bootcamp bootcamp) {
-		
+
 	}
-	
+
 	public void progresso() {
-		
+
 	}
-	
-	public void calcularXp() {}
+
+	public void calcularXp() {
+	}
 
 	public String getNome() {
 		return nome;
@@ -78,9 +79,6 @@ public class Dev {
 		} else if (!nome.equals(other.nome))
 			return false;
 		return true;
-	} 
-	
-	
-	
-	
+	}
+
 }

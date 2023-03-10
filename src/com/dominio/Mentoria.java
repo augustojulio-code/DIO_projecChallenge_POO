@@ -2,16 +2,14 @@ package com.dominio;
 
 import java.time.LocalDate;
 
-public class Mentoria extends Conteudo{
-	
-	
+public class Mentoria extends Conteudo {
+
 	private LocalDate data;
-	
-	
+
 	public Mentoria() {
-		
+
 	}
-			
+
 	public LocalDate getData() {
 		return data;
 	}
@@ -25,14 +23,10 @@ public class Mentoria extends Conteudo{
 		return "Mentoria " + getTitulo() + ", descricao=" + getDescricao() + ", data=" + data;
 	}
 
-
-
 	@Override
 	public double calcularXp() {
 		// TODO Auto-generated method stub
-		return XP_PADRAO +20d;
+		return XP_PADRAO + 20d;
 	}
-	
-	
-	
+
 }
